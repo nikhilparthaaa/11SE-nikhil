@@ -27,10 +27,8 @@ print("vaccinted:", vaccinated)
 
 Q_update=input("Update credit card number? ")
 if Q_update=="yes":
-    ccard_temp=input("New number: ")
-    Q_Set=input("Save as Credit Card Number? ")
-    if Q_Set=="yes":
-        ccard=ccard_temp
+    ccard=input("New number: ")
+print(ccard)
 
 owner_name = "Alex Jones"
 print(owner_name)

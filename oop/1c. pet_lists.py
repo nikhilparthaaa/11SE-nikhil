@@ -18,3 +18,5 @@ Vaccination Status: False
 #1. Add a new animal named Hootie, its a blowfish, it is 34 years
 #2. Vaccinate an unvaccinated animal (create vaccination)
 #3. Remove an animal and make sure that all the printing is correct
+
+print("")
