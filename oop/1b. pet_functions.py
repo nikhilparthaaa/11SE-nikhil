@@ -26,9 +26,6 @@ help()
 increase_age()
 print(age)
 
-jjj
-
-
 #ACTIVITIES:
 #There are many ways to complete these. How will you go about the job?
 #1. Verify this number 1234 4334 1001 0000
@@ -36,3 +33,9 @@ jjj
 #3. If the credit card is valid then reduce balance by $39
 #4. Write and test a function to vaccinate Bonnie 
 
+card_number="1234 4334 1001 0000"
+  if verify_credit_card = True
+    Print("Valid")
+  elif  
+    Print("Invalid")
+  
