@@ -33,9 +33,28 @@ print(age)
 #3. If the credit card is valid then reduce balance by $39
 #4. Write and test a function to vaccinate Bonnie 
 
-card_number="1234 4334 1001 0000"
-  if verify_credit_card = True
-    Print("Valid")
-  elif  
-    Print("Invalid")
-  
+verify_num = "1234 4334 1001 0000"
+if verify_credit_card(verify_num) == True:
+  print("Valid")
+else:
+  print("Invalid")
+
+input_num = input("input credit card: ")
+if verify_credit_card(input_num) == True:
+  print("Valid")
+  account_balance=account_balance-39
+  print(account_balance)
+else:
+  print("Invalid")
+
+def vaccinate(bonnie):
+  global function
+  if vaccinate(bonnie)=="true":
+    return True
+  return False
+
+bonnie_vaccinate==input("is bonnie vacinated? ")
+if vaccinate(bonnie_vaccinate)==True:
+  print("vaccinated")
+else:
+    print("unvaccinated")

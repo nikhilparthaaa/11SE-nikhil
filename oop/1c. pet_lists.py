@@ -1,5 +1,6 @@
 #Tutorial 3 Lists:
 #1. Create an example of parallel lists eg: pet_name, species, age, vaccination_status for three pets
+def__init__():
 #2. Use a for loop to print parallel list details. This will mean that one complete printout will look like:
 '''
 Pet name: Foxy
