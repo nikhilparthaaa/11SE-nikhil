@@ -11,9 +11,13 @@ class Pet:
         self.ccard = ccard
         self.vaccinated = vaccinated
 
-info = [p1 == Pet('Cupcake', 'Dog', 12, '1234-5678-1234-5678', False), p2 == Pet('Galaxy destroyer', 'cat', 4, '1234-5678-9012-3456', False), p3 == Pet('leonard', 'dog', 3, '6543-2109-8765-4321', False)]
+p1 = Pet('Cupcake', 'Dog', 12, '1234-5678-1234-5678', False)
+p2 = Pet('Galaxy destroyer', 'cat', 4, '1234-5678-9012-3456', False)
+p3 = Pet('leonard', 'dog', 3, '6543-2109-8765-4321', True)
 
-for i in [info]:
+info = [p1, p2, p3]
+
+for i in info:
     print(" ")
     print("pet name:", i.name)
     print("species:", i.category)
